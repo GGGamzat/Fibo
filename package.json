@@ -1,5 +1,5 @@
 {
-  "name": "vet_major",
+  "name": "fibo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
