@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import logo from '../assets/icons/logo.svg';
 import icon_1 from '../assets/icons/1.svg';
 import icon_2 from '../assets/icons/2.svg';
@@ -8,7 +10,7 @@ const Header = () => {
         <header className="header">
             <div className="header__container">
                 <div className="header__upper">
-                    <img src={logo} alt="" className="logo" />
+                    <Link to="/"><img src={logo} alt="" className="logo" /></Link>
                     <div className="delivery__info">
                         <div className="delivery-info__upper">
                             <span className="info-upper1">Доставка пасты </span>

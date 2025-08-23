@@ -1,12 +1,16 @@
-import Header from './components/Header.jsx';
-import Slider from './components/Slider.jsx';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home";
 
 
 function App() {
   return (
     <div className="wrapper">
-      <Header></Header>
-      <Slider></Slider>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home/>}></Route>
+        </Routes>
+      </Router>
     </div>
   );
 }
