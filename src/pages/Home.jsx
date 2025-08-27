@@ -1,6 +1,6 @@
 import Header from '../components/Header.jsx';
 import Slider from '../components/Slider.jsx';
-import noveltyList from '../data/data.js';
+import { noveltyList } from '../data/data.js';
 
 function Home() {
     return (
