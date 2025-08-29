@@ -1,5 +1,6 @@
 import Header from '../components/Header.jsx';
 import Slider from '../components/Slider.jsx';
+import Footer from '../components/Footer.jsx';
 import { noveltyList } from '../data/data.js';
 
 function Home() {
@@ -25,6 +26,7 @@ function Home() {
                     </div>
                 </div>
             </main>
+            <Footer></Footer>
         </>
     );
 }

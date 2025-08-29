@@ -267,3 +267,127 @@ body {
     border: none;
     border-radius: 8px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer {
+    margin-top: 80px;
+}
+
+.footer__container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+.footer__left-block {
+    width: 665px;
+}
+
+.info-1,
+.info-2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0E0C0D;
+}
+
+.info-1 {
+    display: flex;
+    margin-top: 8px;
+    column-gap: 52px;
+}
+
+.info-2 {
+    margin-top: 23px;
+}
+
+.info-3 {
+    display: flex;
+    margin-top: 15px;
+    column-gap: 104px;
+}
+
+.info-3 h4 {
+    margin: 0;
+    opacity: 70%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0E0C0D;
+}
+
+.info-4 {
+    margin-top: 45px;
+    opacity: 80%;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0E0C0D;
+}
+
+.footer__right-block {
+    width: 445px;
+}
+
+.right-block__title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0E0C0D;
+}
+
+.messenger_btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 33px;
+}
+
+.messenger_btns button {
+    background-color: #FFFFFF;
+    border-radius: 13px;
+    border: 2px solid #E3ECF5;
+}
+
+.short-btn {
+    flex: 1 0 22%;
+    padding: 11px 35px 11px 36px;
+    height: 52px;
+    width: 101px;
+}
+
+.long-btn {
+    flex: 1 0 45%;
+    padding: 18px 58px 18px 59px;
+    height: 52px;
+    width: 216px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #0E0C0D;
+}
+
+.footer_number {
+    margin-top: 47px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #F7D22D;
+}
+
+.footer__call-btn {
+    margin-top: 20px;
+    padding: 7px 27px;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #696F7A;
+    background-color: #F3F3F7;
+    border-radius: 28px;
+    border: none;
+}

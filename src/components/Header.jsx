@@ -44,7 +44,7 @@ const Header = () => {
                         <li><a href="">Десерты</a></li>
                         <li><a href="">Бакалея</a></li>
                         <li><a href="">Антипасти</a></li>
-                        <li><a href="">Акции</a></li>
+                        <li><Link to="/action">Акции</Link></li>
                         <li><a href="">Комбо</a></li>
                         <li><a href="">Контакты</a></li>
                     </ul>
