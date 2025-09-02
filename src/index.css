@@ -210,6 +210,75 @@ body {
 
 
 
+.dishes {
+    margin-top: 46px;
+}
+
+.dishes__title {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 800;
+    color: #F7D22D;
+}
+
+.dishes__block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 26px;
+    row-gap: 49px;
+    column-gap: 29px;
+}
+
+.dishes__cart {
+    flex: 0 0 calc(25% - 29px); /* 4 карточки в ряд */
+}
+
+.dishes__cart-img {}
+
+.dishes__cart-title {
+    margin: 0;
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #797979;
+}
+
+.dishes__cart-text {
+    margin-top: 14px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #686466;
+}
+
+.dishes__cart_block-bot {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.dishes__cart-price {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    color: #231F20;
+}
+
+.dishes__cart-btn {
+    padding: 4px 23px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #473E43;
+    background-color: #F7D22D;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
 
 
 

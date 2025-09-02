@@ -1,6 +1,7 @@
-import dish1 from '../assets/img/1.png';
-import dish2 from '../assets/img/2.png';
-import dish3 from '../assets/img/3.png';
+import dish1 from '../assets/img/dish1.png';
+import dish2 from '../assets/img/dish2.png';
+import dish3 from '../assets/img/dish3.png';
+import dish4 from '../assets/img/dish4.png';
 
 import action1 from '../assets/img/action/1.png';
 import action2 from '../assets/img/action/2.png';
@@ -15,7 +16,8 @@ import action10 from '../assets/img/action/10.png';
 import action11 from '../assets/img/action/11.png';
 import action12 from '../assets/img/action/12.png';
 
-export const noveltyList = [
+
+export const dishList = [
     {
         id: 1,
         img: dish1,
@@ -32,20 +34,19 @@ export const noveltyList = [
     },
     {
         id: 3,
-        img: dish2,
+        img: dish3,
         title: 'Маргарита',
         text: 'Домашнаяя паста феттучини, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г',
         price: 300,
     },
     {
         id: 4,
-        img: dish3,
+        img: dish4,
         title: 'Пепперони',
         text: 'Домашнаяя паста феттучини, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г',
         price: 500,
     },
 ];
-
 
 
 export const actionList = [
