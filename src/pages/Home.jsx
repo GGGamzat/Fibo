@@ -3,6 +3,9 @@ import Slider from '../components/Slider.jsx';
 import Footer from '../components/Footer.jsx';
 import { dishList } from '../data/data.js';
 
+import main_action1 from '../assets/img/action/main_action1.png';
+import main_action2 from '../assets/img/action/main_action2.png';
+
 function Home() {
     const multipliedList = [...dishList, ...dishList, ...dishList, ...dishList, ...dishList];
 
@@ -41,6 +44,19 @@ function Home() {
                                 </div>
                             ))}
                         </div>
+                    </div>
+                    <div className="main_action">
+                        <h1 className="main_action__title">Наши акции</h1>
+                        <div className="main_action__block">
+                            <div class="big-banner"><img src={ main_action1 } alt="" className="main_action__cart" /></div>
+                            <div class="small-banners">
+                                <div class="small-banner"><img src={ main_action2 } alt="" className="main_action__cart" /></div>
+                                <div class="small-banner"><img src={ main_action2 } alt="" className="main_action__cart" /></div>
+                                <div class="small-banner"><img src={ main_action2 } alt="" className="main_action__cart" /></div>
+                                <div class="small-banner"><img src={ main_action2 } alt="" className="main_action__cart" /></div>
+                            </div>
+                        </div>
+                        <div className="action-btn_div"><button className="all_action-btn">Все акции</button></div>
                     </div>
                 </div>
             </main>

@@ -280,6 +280,58 @@ body {
 
 
 
+.main_action {
+    margin-top: 64px;
+}
+
+.main_action__title {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main_action__block {
+    margin-top: 47px;
+    display: flex;
+    gap: 29px;
+}
+
+.big-banner {
+    height: 405.5px;
+}
+
+.small-banners {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 27px;
+    column-gap: 29px;
+}
+
+.small-banner {
+    height: 189px;
+    width: calc(50% - 14.5px); /* 50% минус половина column-gap */
+}
+
+.action-btn_div {
+    display: flex;
+    justify-content: center;
+}
+
+.all_action-btn {
+    margin-top: 49px;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #FFFFFF;
+    background-color: #F7D22D;
+    border: none;
+    border-radius: 23px;
+}
+
+
+
+
 
 
 
